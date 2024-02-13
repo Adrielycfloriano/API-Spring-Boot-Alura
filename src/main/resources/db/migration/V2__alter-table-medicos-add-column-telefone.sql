@@ -1,3 +1,1 @@
-alter table medicos add ativo tinyint;
-update medicos set ativos = 1;
-
+alter table medicos add telefone varchar(20) not null;
